@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="top.links">
+            <block type="vs7_comparelink/links" name="links_top">
+                <action method="addWishlistLink"></action>
+                <action method="addCompareLink"></action>
+            </block>
+        </reference>
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><name>vs7_comparelink/disableCompareLink.js</name></action>
+        </reference>
+    </default>
+</layout>

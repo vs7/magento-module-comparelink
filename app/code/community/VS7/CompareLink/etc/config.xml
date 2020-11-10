@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VS7_CompareLink>
+            <version>0.1.0</version>
+        </VS7_CompareLink>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <vs7_comparelink>
+                    <file>vs7_comparelink.xml</file>
+                </vs7_comparelink>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <vs7_comparelink>
+                <class>VS7_CompareLink_Block</class>
+            </vs7_comparelink>
+        </blocks>
+    </global>
+</config>
